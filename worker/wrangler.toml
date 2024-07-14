@@ -1,0 +1,12 @@
+name = "gw"
+main = "src/index.ts"
+compatibility_date = "2023-03-15"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "offchaindemo"
+database_id = "3ab95fd9-abe6-47fc-a7ff-2d35cb1e6eaf"
+
+# The necessary secrets are:
+# - PRIVATE_KEY
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
