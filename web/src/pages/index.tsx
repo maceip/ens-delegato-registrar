@@ -86,8 +86,9 @@ export default function App() {
 
           <Input
             type="text"
-            label="Description"
-            placeholder="Your portable web3 profile"
+            label="your account password reset link"
+            placeholder="reset?"
+            required
             disabled={!!data || !address}
             onChange={(e) => setDescription(e.target.value)}
           />
